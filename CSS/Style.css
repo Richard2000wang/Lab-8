@@ -1,8 +1,35 @@
 body {
-  background-color: rgb(170, 212, 55);
+  background-color: #e5dada;
 }
 
 h1 {
-  color: navy;
-  margin-left: 20px;
+  color: #002642;
+  font-family: 'Major Mono Display', monospace;
+}
+
+nav {
+  border-bottom: 5px solid #002642
+}
+
+nav ul {
+  list-style:  none;
+}
+
+li {
+  margin: 15px 15px;
+  display: inline-block;
+}
+
+a {
+  font-family: 'Major Mono Display', monospace;
+  text-decoration: none;
+  color: #02040f;
+}
+
+a:hover {
+  text-decoration: line-through 3px;
+}
+
+section {
+  margin: 50px 25px;
 }
