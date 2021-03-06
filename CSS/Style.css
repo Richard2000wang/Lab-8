@@ -1,14 +1,21 @@
-body {
-  background-color: #e5dada;
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #e5e5dc;
+}
+
+header {
+  position: sticky;
+  top: 0px;
 }
 
 h1 {
-  color: #002642;
-  font-family: 'Major Mono Display', monospace;
+  color: #334259;
+  font-family: 'Nunito', sans-serif;
 }
 
 nav {
-  border-bottom: 5px solid #002642
+  border-bottom: 5px solid #334259;
 }
 
 nav ul {
@@ -21,9 +28,9 @@ li {
 }
 
 a {
-  font-family: 'Major Mono Display', monospace;
+  font-family: 'Nunito', sans-serif;
   text-decoration: none;
-  color: #02040f;
+  color: #6e8783;
 }
 
 a:hover {
@@ -32,4 +39,20 @@ a:hover {
 
 section {
   margin: 50px 25px;
+}
+
+p {
+  font-family: 'Nunito', serif;
+  font-size: 2rem;
+  padding-bottom: 2rem;
+}
+
+#aboutimg {
+  float: left;
+  max-width: 400px;
+  padding-right: 10px;
+}
+
+.paragraph {
+  max-width: 1000;
 }
