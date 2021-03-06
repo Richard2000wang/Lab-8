@@ -14,14 +14,6 @@ h1 {
   font-family: 'Nunito', sans-serif;
 }
 
-nav {
-  border-bottom: 5px solid #334259;
-}
-
-nav ul {
-  list-style:  none;
-}
-
 li {
   margin: 15px 15px;
   display: inline-block;
@@ -55,4 +47,10 @@ p {
 
 .paragraph {
   max-width: 1000;
+}
+
+.navi {
+  display: flex;
+  flex-direction: row;
+  border: 5px solid #334259;
 }
