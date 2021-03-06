@@ -36,9 +36,7 @@ a:hover {
 }
 
 #aboutimg {
-  float: left;
   max-width: 400px;
-  padding-right: 10px;
 }
 
 .paragraph {
