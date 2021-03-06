@@ -14,11 +14,6 @@ h1 {
   font-family: 'Nunito', sans-serif;
 }
 
-li {
-  margin: 15px 15px;
-  display: inline-block;
-}
-
 a {
   font-family: 'Nunito', sans-serif;
   text-decoration: none;
@@ -29,8 +24,15 @@ a:hover {
   text-decoration: line-through 3px;
 }
 
-section {
-  margin: 50px 25px;
+.sidebar {
+  border: 1px #334259;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  background-color: #edddd0;
+  align-content: space-evenly;
+  height: 600px;
 }
 
 #aboutimg {
@@ -52,6 +54,12 @@ section {
 
 .link {
   width: 150px
+}
+
+.biglink {
+  display: flex;
+  flex-direction: row;
+  width: 1000px
 }
 
 .text,
